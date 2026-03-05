@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+table, th, td {
+  border: 1px solid black;
+  font-size:xx-large;
+  text-align: center;
+}
+table {
+    background-color: black;
+}
+th {
+    background-color: blanchedalmond;
+}
+td {
+    background-color: white;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
