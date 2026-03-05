@@ -1,22 +1,30 @@
-h1 {
-    text-align: center;
+p, h1, h3, table, th, td, li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 table, th, td {
   border: 1px solid black;
-  font-size:xx-large;
   text-align: center;
 }
 table {
-    background-color: black;
+    background-color: green;
 }
 th {
     background-color: blanchedalmond;
+    font-style: italic;
 }
 td {
-    background-color: white;
+    background-color: rgb(255, 253, 253);
 }
 .center {
     display: flex;
     justify-content: center;
     align-items: center
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+body {
+    background-color: rgb(236, 232, 228);
 }
